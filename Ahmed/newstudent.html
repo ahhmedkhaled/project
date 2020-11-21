@@ -11,6 +11,8 @@
       <hr>
      <form action="#" metod="get">
 <p>
+    <fieldset >
+        <legend>Personal Information</legend>
     <label > Full name:
         <input type="text" name="textname">
     </label>
@@ -29,12 +31,33 @@
 </label>
 
 </p>
+</fieldset>
+<fieldset>
+<legend>Contact Information</legend>
+<p>
+    <label>
+        Email: 
+        <input type="email" name="txtEmail">
+
+    </label>
+</p>
+<p>
+    <label>
+        Phone: 
+        <input type="tel" name="txtPhone">
+
+    </label>
+</p>
 <P>
     <label>
         address:
         <textarea rows="5" colum="40" name="textarea"></textarea>
     </label>
 </P>
+</fieldset>
+<fieldset>
+    <legend> Universty information</legend>
+
 <P>
     <label>
         choose your faculty:
@@ -46,6 +69,8 @@
         </select>
     </label>
 </P>
+</fieldset>
+<input type="submit" class="button" value="Add" name="add">
      </form>
 
     </body>
