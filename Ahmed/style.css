@@ -1,8 +1,68 @@
 body{
-    background-color: aqua
+    background-color: lightgrey
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
     color: blue;
     text-align: center;
+}
+ul{
+    list-style-type: none;
+    border: 1px solid white;
+    background-color:gray;
+    overflow:hidden;
+}
+li{float:left
+
+}
+.nava-right{
+
+float:right;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+li a{
+    display: block;
+    color: lightgray;
+    padding-bottom : 10px;
+    padding-right: 14px;
+    padding-left:14px;
+    padding-top :10px;
+
+}
+li a:hover{
+    background-color: gray;
+}
+li a.active{
+    background-color: greenyellow;
+}
+div{
+    border:  3px solid; 
+    border-radius: 15px ;
+    border-style: double;
+    box-shadow: -10px 5px 0px plum;
+    background-image: linear-gradient(black,white);
+}
+
+table{
+
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
+
+}
+thead tr{
+    text-align: center;
+}
+
+thead{
+    background-color: teal;
+    color: white;
+}
+
+tbody tr:nth-child(even)
+{
+    background-color: rgb(66, 64, 64);
 }
